@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – Misael Taboada</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Misael Taboada | Personal web portfolio showcasing About Me section, web development resources, and projects using HTML, JavaScript and CSS.">
+    <meta name="author" content="Misael Taboada">
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>INDEX</h1>
+    <div class="container">
+        <header>
+            <div class="topbar">
+                <span id="course-title">WDD 131 – Dynamic Web Fundamentals - </span>
+                <span id="instructor-name">Misael Taboada</span>
+            </div>
+            <nav class="mainnav">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://byupw.instructure.com/" target="_blank" rel="noopener">Canvas</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/1?lang=spa&id=p1#p1">Scripture</a>
+                <a href="#" target="_blank" rel="noopener">Final Project</a>
+            </nav>
+        </header>
+    <main>
+        <h1>About Me</h1>
+        <div class="main">
+            <section class="aboutme">
+                <div class="text1">
+                    <p>Hello! I'm Misael Taboada, a dedicated web developer with a passion for creating dynamic and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive web applications that provide seamless user experiences across all devices. My journey into web development began with a fascination for how websites are built and function, leading me to pursue formal education and hands-on projects in this field.</p>
+                </div>
+                <div class="myself">
+                    <img src="images/myself.JPG" alt="Misael Taboada">
+                </div>
+            </section>
+            <h2>Santa Cruz, Bolivia</h2>
+            <section class="santacruz">
+                <div class="img2">
+                    <figure><img src="images/santa-cruz.jpg" alt=" Santa Cruz de la Sierra, Bolivia">
+                        <figcaption>Santa Cruz City</figcaption></figure>
+                </div>
+                <div class="text2">
+                    <p>The city was first founded in 1561 by Spanish explorer Ñuflo de Chavez about 200 km (124 mi) east of its current location, and was moved several times until it was finally established on the Pirai River in the late 16th century. For much of its history, Santa Cruz was mostly a small outpost town, and even after Bolivia gained its independence in 1825 there was little attention from the authorities or the population in general to settle the region. It was not until after the middle of the 20th century with profound agrarian and land reforms that the city began to grow at a very fast pace.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="aside">
+        <h2 class="h2">Web Development Resources</h2>
+        <div class="resources">
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>©️ <span id="year"></span> Misael Taboada | Bolivia</p>
+        <p id="lastModified"></p>
+    </footer>
+</div>
 </body>
 </html>
