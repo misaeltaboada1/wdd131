@@ -1,0 +1,31 @@
+
+@media (min-width: 768px) {
+    #menuBtn {
+        display: none; 
+    }
+    nav {
+        display: block;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        background: none;
+    }
+    nav ul li {
+        border: none;
+    }
+    nav ul li a {
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+    }
+    nav ul li a:hover {
+        background: #6a0dad;
+    }
+    .images-container {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    main {
+        max-width: 1000px;
+    }
+}

@@ -1,0 +1,105 @@
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #2b0082;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+
+.p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+
+#menuBtn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #2b0082;
+}
+
+nav ul li {
+    border-top: 1px solid white;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background: #2b0082;
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.images-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    aspect-ratio: 4 / 3; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+footer {
+    background: #2b0082;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
