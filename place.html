@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place</title>
+    <meta author="Misael Taboada">
+    <meta description="A place to explore various locations.">
+    <script src="scripts/place.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Santa Cruz</h1>
+    </header>
+    <div class="hero">
+        <picture>
+            <source srcset="images/background-large-sc.webp" media="(min-width: 1000px)">
+            <source srcset="images/background-small-sc.webp" media="(min-width: 500px)">
+            <img src="images/background-small-sc.webp" alt="Santa Cruz landscape" width="500" height="250">
+        </picture>
+        <div class="content">
+            <div class="data">
+                <h2>Data</h2>
+                <ul>
+                    <li><strong>Area:</strong> 587,041 sq km</li>
+                    <li><strong>Population:</strong> 27,691,018</li>
+                    <li><strong>Capital:</strong> Antananarivo</li>
+                    <li><strong>Languages:</strong> Malagasy, French</li>
+                    <li><strong>Currency:</strong> Malagasy Ariary</li>
+                    <li><strong>Time Zone:</strong> UTC+3</li>
+                    <li><strong>Calling Code:</strong> +261</li>
+                    <li><strong>Internet TLD:</strong> .mg</li>
+                </ul>
+            </div>
+            <div class="wheater">
+                <h2>Weather</h2>
+                <div class="div-svg"><img class="svg-icon" src="images/cloud-icon.svg" alt=""></div>
+                <ul>
+                    <li><strong>Temperature:</strong> 10°C</li>
+                    <li><strong>Conditions:</strong> Partly Cloudy</li>
+                    <li><strong>Wind:</strong> 5 km/h</li>
+                    <li><strong>Wind Chill:</strong> <span id="windChill"></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>©️ <span id="year"></span> Misael Taboada | Bolivia</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

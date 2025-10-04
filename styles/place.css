@@ -1,0 +1,89 @@
+:root{
+    --primary-color: #1c2f83;
+    --secondary-color: #e29e4a;
+    --head-font: 'Roboto', sans-serif;
+    --body-font: 'Merriweather', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.svg-icon {
+    width: 100px !important;
+    height: auto !important;
+    text-align: center !important;
+}
+
+.div-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    background: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    text-align: center;;
+    font-family: var(--head-font);
+}
+
+h2{
+    text-align: center;
+    color: rgb(16, 0, 0);
+    font-family: var(--head-font);
+    padding: 1rem;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    font-family: var(--body-font);
+}
+
+.wheater {
+    margin-bottom: 1rem;
+}
+
+.hero{
+    position: relative;
+    
+}
+
+.hero picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    grid-column: 1 / 3;
+    background-color: var(--primary-color);
+    color: rgb(249, 249, 249);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-family: var(--body-font);
+}
+
+#lastModified {
+    color: yellow;
+}
+
