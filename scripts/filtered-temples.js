@@ -18,7 +18,6 @@ menuBtn.addEventListener("click", () => {
 });
 
 
-// 🛕 Temple Data
 const temples = [
     {
         templeName: "Aba Nigeria",
@@ -106,7 +105,7 @@ const temples = [
 createTempleCard(temples);
 
 
-// 🎨 Function to create temple cards
+
 function createTempleCard(filteredTemples) {
     const container = document.querySelector(".images-container");
     container.innerHTML = "";
@@ -138,10 +137,9 @@ function createTempleCard(filteredTemples) {
     });
 }
 
-// 🟢 Default: show all
+
 createTempleCard(temples);
 
-// 🟠 Filters (como el ejemplo del “Utah” pero aplicados a las instrucciones)
 document.querySelector("#home").addEventListener("click", () => {
     createTempleCard(temples);
 });

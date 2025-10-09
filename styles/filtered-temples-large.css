@@ -40,7 +40,7 @@
     align-items: center;
 }
 .images-container section {
-    background-color: #ede8e8; /* fondo plomo claro */
+    background-color: #ede8e8; 
     padding: 1rem;
     border-radius: 5px;
 }
