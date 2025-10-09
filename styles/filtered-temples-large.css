@@ -1,0 +1,53 @@
+
+@media (min-width: 768px) {
+    #menuBtn {
+        display: none; 
+    }
+    nav {
+        display: block;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        background: none;
+    }
+    nav ul li {
+        border: none;
+    }
+    nav ul li a {
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+    }
+    nav ul li a:hover {
+        background: #6a0dad;
+    }
+    .images-container {
+        grid-template-columns: repeat(3, 1fr); 
+        align-items: center;
+    }
+
+
+.images-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+.images-container {
+    grid-template-columns: repeat(3, 1fr); 
+    align-items: center;
+}
+.images-container section {
+    background-color: #ede8e8; /* fondo plomo claro */
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.images-container {
+    gap: 1rem;
+}
+
+}
+

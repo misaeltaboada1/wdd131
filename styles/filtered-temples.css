@@ -1,0 +1,107 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #000000;
+}
+
+header {
+    background: #2b0082;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h2{
+    color: black;
+}
+
+.p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+
+h3{
+    color: #020006;
+}
+
+span{
+    font-weight: bold;
+    color: #2b0082;
+}
+
+#menuBtn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #2b0082;
+}
+
+nav ul li {
+    border-top: 1px solid white;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background: #2b0082;
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.images-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 1rem;
+    margin: 0;
+    width: 100%;
+    aspect-ratio: 4 / 3; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+footer {
+    background: #2b0082;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.year {
+    font-weight: bold;
+    color: white;
+}
+
+.modified {
+    color: #f7fb02;
+}
+

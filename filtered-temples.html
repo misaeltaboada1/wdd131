@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filtered Temple Album</title>
+    <meta name="author" content="Misael Taboada">
+    <meta name="description" content="A collection of images showcasing various temples from around the world, highlighting their architectural beauty and cultural significance.">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <p class="p">Temple Album</p>
+        <button id="menuBtn" aria-controls="menu" aria-expanded="false" aria-label="Open menu">☰</button>
+        <nav id="menu">
+            <ul>
+                <li><a id="home" href="#">Home</a></li>
+                <li><a id="old" href="#">Old</a></li>
+                <li><a id="new"  href="#">New</a></li>
+                <li><a id="large" href="#">Large</a></li>
+                <li><a id="small" href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Temples Around the World</h1>
+        <h2>Visit different temples around the world</h2>
+        <div class="images-container"></div>
+    </main>
+    <footer>
+        <p>©️ <span class="year" id="year"></span> Misael Taboada | Bolivia</p>
+        <p class="modified" id="lastModified"></p>
+    </footer>
+</body>
+</html>
