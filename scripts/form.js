@@ -1,12 +1,9 @@
-// ---------- Footer info ----------
 const year = new Date().getFullYear();
 document.getElementById("year").textContent = year;
 
 const lastModified = document.lastModified;
 document.getElementById("lastModified").textContent = `Last Modified: ${lastModified}`;
 
-
-// ---------- Product array ----------
 const products = [
     { id: "fc-1888", name: "flux capacitor", averagerating: 4.5 },
     { id: "fc-2050", name: "power laces", averagerating: 4.7 },
@@ -15,11 +12,8 @@ const products = [
     { id: "jj-1969", name: "warp equalizer", averagerating: 5.0 }
 ];
 
-
-// ---------- Function: Fill select dynamically ----------
 const selectElement = document.getElementById("product-select");
 
-// Verificamos si existe el select (solo en form.html)
 if (selectElement) {
     products.forEach(product => {
         const option = document.createElement("option");
@@ -29,8 +23,6 @@ if (selectElement) {
     });
 }
 
-
-// ---------- Review counter (runs only on review.html) ----------
 const reviewCountSpan = document.getElementById("reviewCount");
 
 if (reviewCountSpan) {

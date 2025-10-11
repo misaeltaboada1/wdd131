@@ -14,7 +14,6 @@
     <main>
         <h1>Product Review</h1>
         <form method="get" action="review.html" class="form">
-
             <fieldset>
                 <legend>Product Name</legend>
                 <label for="product-select">Select a product</label>
@@ -22,7 +21,6 @@
                     <option value="" disabled selected>Choose a Product </option>
                 </select>
             </fieldset>
-
             <fieldset class="radio">
                 <legend>Overall Rating</legend>
                 <label><input type="radio" name="rating" value="1" required> ★</label>
@@ -31,12 +29,10 @@
                 <label><input type="radio" name="rating" value="4"> ★★★★</label>
                 <label><input type="radio" name="rating" value="5"> ★★★★★</label>
             </fieldset>
-
             <fieldset>
                 <legend>Date of Installation</legend>
                 <input type="date" id="installation-date" name="installationDate" required>
             </fieldset>
-
             <fieldset>
                 <legend>Which features did you find useful in the product? (Check all that apply)</legend>
                 <label><input type="checkbox" name="features" value="durability"> Durability</label>
@@ -44,17 +40,14 @@
                 <label><input type="checkbox" name="features" value="performance"> Performance</label>
                 <label><input type="checkbox" name="features" value="design"> Design</label>
             </fieldset>
-
             <fieldset>
                 <legend>Written Review <span>(Optional)</span></legend>
                 <textarea id="written-review" name="reviewText" rows="5"></textarea>
             </fieldset>
-
             <fieldset>
                 <legend>Your Name <span>(Optional)</span></legend>
                 <input type="text" id="user-name" name="userName">
             </fieldset>
-
             <input type="submit" value="Post Review">
         </form>
     </main>
