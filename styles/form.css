@@ -1,0 +1,123 @@
+:root {
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Quicksand', sans-serif;
+    --color-primary: rgb(50, 26, 129);
+    --color-secondary: rgb(203, 201, 235);
+}
+
+.form fieldset{
+    margin: 1rem 0;
+    border: none;
+    padding: 1rem
+    
+}
+
+legend {
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 1.1rem;
+
+}
+
+.form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.form input[type="date"],
+.form input[type="text"],
+.form select,
+.form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: var(--font-secondary);
+    align-items: center;
+}
+
+.form input[type="date"],
+.form input[type="text"],
+.form select{
+    height: 44px;
+}
+
+.form input[type="submit"] {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: var(--font-secondary);
+    width: 96.2%;
+    margin: 1rem 2% 1.5rem 2%;
+    font-size: 1.3rem;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    accent-color: gold; /* opcional, los hace dorados si tu navegador lo soporta */
+    cursor: pointer;
+    margin: 0 4px;
+}
+
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    border: solid;
+    background: var(--color-secondary);
+    font-family: var(--font-secondary);
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: var(--color-primary);
+    margin: 0;
+    padding: 1rem;
+    font-family: var(--font-primary);
+}
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio label {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: rem;
+    gap: 0.25rem; 
+    cursor: pointer;
+    font-size: 1.5rem;     
+}
+
+span{
+    color: black;
+}
+
+footer {
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+    background: var(--color-secondary);
+    padding: 0.5rem 0.3rem;
+    border:  solid black;
+    border-top: none;
+    max-width: 600px; 
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--font-secondary);
+    margin: 1.5rem 0;
+}
