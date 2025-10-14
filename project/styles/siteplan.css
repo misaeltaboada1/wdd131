@@ -42,14 +42,13 @@ img{
     border-radius: 8px;
     margin-bottom: 20px;
     display: block;
-  margin: 0 auto;
+    margin: 0 auto;
 
 }
 
 figcaption{
     text-align: center;
     font-style: italic;
-    margin-top: px;
     color: #180456;
 }
 
