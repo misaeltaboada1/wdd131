@@ -1,0 +1,75 @@
+@media screen and (min-width: 740px) {
+    /* Navigation */
+    #menuBtn {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    nav a {
+        padding: 1rem;
+    }
+
+    /* Info Section */
+    .info-section {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .info-block {
+        flex: 1;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(250, 229, 229, 0.419);
+    }
+
+    .info-block img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+    /* Fan Review Section */
+    #fan-review {
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    #fan-review .form {
+        max-width: 600px;
+        margin: 2rem auto;   
+        padding: 1.5rem;  
+    }
+
+    /* Footer */
+    .site-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        text-align: left;
+    }
+
+    .site-footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-footer p {
+        margin: 0;
+        padding: 4px 0;
+        text-align: left;
+    }
+
+    .socialmedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+}
