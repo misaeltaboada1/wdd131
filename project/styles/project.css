@@ -34,7 +34,6 @@ h2 {
     font-size: 3em;
     font-family: var(--header-font);
     color: var(--accent);
-    margin-bottom: 1px solid white;
 }
 
 h3 {
